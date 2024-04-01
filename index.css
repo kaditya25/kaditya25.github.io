@@ -1,0 +1,49 @@
+.sectionholder{
+	display:table;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius:10px;
+	margin:25px;
+}
+.maintext,.skillset{
+	display:table-cell;
+	padding:1rem;
+}
+.maintext img{
+	width:30%;
+	border-radius:10px;
+	transition:scale 0.75s,border-radius 0.75s;
+	display:table-cell;
+}
+.maintext img:hover{
+	scale:1.05;
+	border-radius:1px;
+	transition:scale 0.75s,border-radius 0.75s;
+}
+.maintext{
+	width:70%;
+	color:#2E8B57;
+	font-size:1.5rem;
+	font-weight:100;
+	vertical-align:middle;
+	text-align:left;
+}
+.maintext a{
+	color:#ffffff;
+}
+.skillset{
+	width:30%;
+	color:#2E8B57;
+	font-size:1.2rem;
+	font-weight:100;
+	vertical-align:middle;
+	display:table;
+}
+.set{
+	display:table-cell;
+}
+.set p{
+	text-align:center;
+}
+.set li{
+	text-align:left;
+}
