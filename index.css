@@ -1,8 +1,10 @@
+/*Content CSS*/
 .sectionholder{
 	display:table;
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius:10px;
 	margin:25px;
+	width:95%;
 }
 .maintext,.skillset{
 	display:table-cell;
@@ -30,6 +32,17 @@
 .maintext a{
 	color:#ffffff;
 }
+.contactlink{
+	width:70%;
+	color:#2E8B57;
+	font-size:1.5rem;
+	font-weight:100;
+	vertical-align:middle;
+	text-align:left;
+}
+.contactlink a{
+	color:#ffffff;
+}
 .skillset{
 	width:30%;
 	color:#2E8B57;
@@ -47,6 +60,11 @@
 .set li{
 	text-align:left;
 }
+.maincontent.fullframe{
+	width:95%;
+}
+
+/*Stylistic CSS*/
 .header{
 	display:inline-block;
 	position:relative;
